@@ -1,0 +1,115 @@
+{
+    "class_id": "com-snaplogic-snap-api-sql-accounts-mysqldatabaseaccount",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "automation"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "ImpExpAcc"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "JdbcDriversProp": {
+                "value": []
+            },
+            "advancedProperties": {
+                "value": {
+                    "acquireIncrement": {
+                        "value": 1
+                    },
+                    "autoCommit": {
+                        "value": true
+                    },
+                    "batchSize": {
+                        "value": 50
+                    },
+                    "checkoutTimeout": {
+                        "value": 10000
+                    },
+                    "evictConnectionOnClose": {
+                        "value": false
+                    },
+                    "fetchSize": {
+                        "value": 100
+                    },
+                    "idleConnectionTestPeriod": {
+                        "value": 5
+                    },
+                    "maxIdleTime": {
+                        "value": 30
+                    },
+                    "maxPoolSize": {
+                        "value": 50
+                    },
+                    "minPoolSize": {
+                        "value": 0
+                    },
+                    "retryAttempts": {
+                        "value": 0
+                    },
+                    "urlProperties": {
+                        "value": []
+                    }
+                }
+            },
+            "connectionProperties": {
+                "value": {
+                    "AuthenticationMode": {
+                        "value": "Password"
+                    },
+                    "databaseName": {
+                        "value": "enron"
+                    },
+                    "hostname": {
+                        "value": "mysqlqa2-snapqa.cwztruwzzvnq.us-east-1.rds.amazonaws.com"
+                    },
+                    "keyAlias": {
+                        "value": null
+                    },
+                    "keyStoreURL": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "password": {
+                        "fp": "2707a830b763a160bf8709b973d4d052ec5917dce95b705f360326eefcc0ac85",
+                        "key": "account-cloud-managed-64c9964297192ec91d81d873-2023-08-01T23:33:24-987285+00:00",
+                        "sym_iv": "97c2vBosZEVluGyM94eJkg==",
+                        "sym_key": "SGhzr9n3e0rROGAPOSESllXh1B0guqgMKNb143Wh3ge0dShzsTtvc231oCNyqF2YliciQYw0XhqZRGn0GYY2f58E8H57aEUJ7grgGxvYesFsc6tUTUy9IV9sZvJQnkORpE/224uNMmacDz5XFk5cpuwFOuOebv7pyo0qw0ictQDKr85zpNhrkQBBkPsBD386dEtBHT/SwVJcir3NQznRzhSSRdN97iUPukaJtS4utEdCJzZOxWORr9MRTRBYu/XeNj/YSx16eyVnqLgMrmUJLy4AFwyjqZJuRCQhY9wUG+dSoXhfsmkr58ljeCObTO2/IGLakXrPOuI6hLukgd12lA==",
+                        "value": "tYweVuhzEWqsFHklemVa+w=="
+                    },
+                    "portNumber": {
+                        "value": 3306
+                    },
+                    "sshTunnelConfiguration": {
+                        "value": false
+                    },
+                    "sshhostname": {
+                        "value": "test"
+                    },
+                    "sshpassword": {
+                        "fp": "2707a830b763a160bf8709b973d4d052ec5917dce95b705f360326eefcc0ac85",
+                        "key": "account-cloud-managed-64c9964297192ec91d81d873-2023-08-01T23:33:24-987285+00:00",
+                        "sym_iv": "Llw/r63GYHevzZB75e9gHQ==",
+                        "sym_key": "M0x+hy8JZr+IitJAWsGBaa71nSU5NU+y5Qu72BYCMqTlOEXxj/fZfeFy41oreEvHunWLxyzZ8AXvlbKVBD+Q3JTWBWcOhEJzGGgk80en7jmiRI7xP1WKA2qYkWLn+6PmA65+iql3MmIk/m4mXhSNkHX+QLZXWnbbSvm6XeNzJPnNvv97Fu9LQ8vz4i8zAgccx3op/bvikkEtamMF09BEmJenATCsLdLujWfaHTZfKEE230qGvQgO7rg7tK6R0LkucQMku69m3EgVCph/8GtFN3SglZjzHVGsyrq6RF1v7Eo4lhAjpycAFJdgr+eIOxe4zIutjXPM0a8wHW43RSD66g==",
+                        "value": "/ePuEHREaf23LdOx9+hrkw=="
+                    },
+                    "sshusername": {
+                        "value": "test"
+                    },
+                    "username": {
+                        "value": "mysqlqatest"
+                    }
+                }
+            },
+            "jdbcDriverClass": {
+                "value": "com.mysql.jdbc.Driver"
+            }
+        },
+        "view_serial": 100
+    }
+}

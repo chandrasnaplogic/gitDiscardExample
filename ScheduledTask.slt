@@ -1,0 +1,37 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "ScheduledTask",
+    "note": "",
+    "parameters": {
+        "enabled": false,
+        "include_external_urls": false,
+        "job_type": "standard",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": null,
+            "slack_recipients": [
+                {
+                    "channel": [],
+                    "user": []
+                }
+            ]
+        },
+        "pipeline_parameters": {
+            "accName": "ImpExpAcc"
+        },
+        "pipeline_path": "Master",
+        "snaplex_path": "GroundPlex"
+    },
+    "schedule": {
+        "start_date": "2017-05-30",
+        "start_time": "16:38:12",
+        "time_zone": "US/Pacific"
+    },
+    "trigger": {
+        "start_date": "2017-05-30",
+        "start_time": "16:38:12",
+        "time_zone": "US/Pacific"
+    },
+    "trigger_type": "ScheduleTrigger"
+}
