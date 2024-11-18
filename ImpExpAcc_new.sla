@@ -7,7 +7,7 @@
     "property_map": {
         "info": {
             "label": {
-                "value": "ImpExpAcc"
+                "value": "ImpExpAcc_new"
             },
             "notes": {
                 "value": null
@@ -23,27 +23,34 @@
                         "value": 1
                     },
                     "autoCommit": {
+                        "expression": false,
                         "value": true
                     },
                     "batchSize": {
+                        "expression": false,
                         "value": 50
                     },
                     "checkoutTimeout": {
+                        "expression": false,
                         "value": 10000
                     },
                     "evictConnectionOnClose": {
                         "value": false
                     },
                     "fetchSize": {
+                        "expression": false,
                         "value": 100
                     },
                     "idleConnectionTestPeriod": {
+                        "expression": false,
                         "value": 5
                     },
                     "maxIdleTime": {
+                        "expression": false,
                         "value": 30
                     },
                     "maxPoolSize": {
+                        "expression": false,
                         "value": 50
                     },
                     "minPoolSize": {
@@ -62,20 +69,40 @@
                     "AuthenticationMode": {
                         "value": "Password"
                     },
+                    "PassPhrase": {
+                        "expression": false,
+                        "fp": "78dec13fda1541f0a6b8b1a1c8e1923939e0dfb342c94beb0cc3f480611fd661",
+                        "key": "account-cloud-managed",
+                        "sym_iv": "U6KGeygFQsgZepy3SbXNVQ==",
+                        "sym_key": "OuOf8USh/EWtPdbC0vGx/MrjBZ+HprWOfKvwebeyAMv+H0efEwBtykUG1Nn1YRmXel2mAerBA3fuGKoJnM6F80esxc7z/lJ42njy3QNufB5wOA+ydEvcBoF+25Ypm8Z+y6usQBekYvDJUxCzfRw5gN5sC2TTVKu+FTrmvxN9YTR5AOHd9mWJv6X19jgF2HdoUnTs+fN/EpV6WLPh2VlYRAXMqP9GtD7TBx8m8ocz4Ldzmah5tlHAsVNu3voitq4HgwrRYYum6X+gUqxSKHc7Fbid1suW7Fc4VPnMKlhLGDtFYnoPKEC56opZ2B6JZQgJSnViRIeZgqmQ6SS5Nw0wzA==",
+                        "value": "9ivpYWp4OpzU3PzY+nZPLQ=="
+                    },
                     "databaseName": {
+                        "expression": false,
                         "value": "enron"
                     },
                     "hostname": {
+                        "expression": false,
                         "value": "mysqlqa2-snapqa.cwztruwzzvnq.us-east-1.rds.amazonaws.com"
                     },
                     "keyAlias": {
+                        "expression": false,
                         "value": null
                     },
                     "keyStoreURL": {
                         "expression": false,
                         "value": null
                     },
+                    "keystorePassword": {
+                        "expression": false,
+                        "fp": "78dec13fda1541f0a6b8b1a1c8e1923939e0dfb342c94beb0cc3f480611fd661",
+                        "key": "account-cloud-managed",
+                        "sym_iv": "+K7GlT8Nesf6lgUea3DjeA==",
+                        "sym_key": "PQvhjoV1l4FmkEN/H3Ni1n5nrRAvDuXEk8105M7HbEG+psakk+L3Ww+Vq5yHPCfuU5OsDi9XVkRgKXaHuDxXqKUM0sdkIrvBpKOcI5ibbhxMjn8eLcD/FeNMdtsANnbOg+K3mWkdyIZYKDKK1ybcnvddlezTa46YI2DQ5gYw2+sbP+lbp60iiSDS2GsJABFu8wv+i0+NfkQQzzgbShSv3GLgp+bbiGum0LkXwFz9JB7RNQn4ZqebbASaliDSIAd8/xhE80Gmx6i5iuoZ+crKkff74vFZruf8Ri1+urn1gVeaSYYBmxglbxE71VRcjJJEcZNsjjmod7w05KoVIJeQyw==",
+                        "value": "EfqwuWkyyA2ziLDuL4tuAg=="
+                    },
                     "password": {
+                        "expression": false,
                         "fp": "2707a830b763a160bf8709b973d4d052ec5917dce95b705f360326eefcc0ac85",
                         "key": "account-cloud-managed-64c9964297192ec91d81d873-2023-08-01T23:33:24-987285+00:00",
                         "sym_iv": "97c2vBosZEVluGyM94eJkg==",
@@ -83,15 +110,19 @@
                         "value": "tYweVuhzEWqsFHklemVa+w=="
                     },
                     "portNumber": {
+                        "expression": false,
                         "value": 3306
                     },
                     "sshTunnelConfiguration": {
+                        "expression": false,
                         "value": false
                     },
                     "sshhostname": {
+                        "expression": false,
                         "value": "test"
                     },
                     "sshpassword": {
+                        "expression": false,
                         "fp": "2707a830b763a160bf8709b973d4d052ec5917dce95b705f360326eefcc0ac85",
                         "key": "account-cloud-managed-64c9964297192ec91d81d873-2023-08-01T23:33:24-987285+00:00",
                         "sym_iv": "Llw/r63GYHevzZB75e9gHQ==",
@@ -99,9 +130,11 @@
                         "value": "/ePuEHREaf23LdOx9+hrkw=="
                     },
                     "sshusername": {
+                        "expression": false,
                         "value": "test"
                     },
                     "username": {
+                        "expression": false,
                         "value": "mysqlqatest"
                     }
                 }
