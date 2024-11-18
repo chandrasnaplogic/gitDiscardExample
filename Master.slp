@@ -44,7 +44,7 @@
         },
         "info": {
             "author": {
-                "value": "nmahaldar+admin2@snaplogic.com"
+                "value": "cgatta@snaplogic.com"
             },
             "label": {},
             "notes": {
@@ -395,6 +395,10 @@
                     }
                 },
                 "settings": {
+                    "batchSize": {
+                        "expression": false,
+                        "value": 4
+                    },
                     "execLabel": {
                         "expression": true,
                         "value": null
@@ -429,12 +433,27 @@
                         "expression": false,
                         "value": 1
                     },
+                    "retryInterval": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "retryLimit": {
+                        "expression": false,
+                        "value": null
+                    },
                     "reuse": {
                         "value": false
                     },
                     "snaplex": {
                         "expression": true,
                         "value": "pipipe.plexPath"
+                    },
+                    "snaplexGovernor": {
+                        "value": "SNAPLEX_WITH_PATH"
+                    },
+                    "timeout": {
+                        "expression": false,
+                        "value": null
                     }
                 },
                 "view_serial": 100
