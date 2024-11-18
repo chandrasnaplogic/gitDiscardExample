@@ -649,7 +649,7 @@
                     },
                     "taskPath": {
                         "expression": false,
-                        "value": "automation/Chandra_PS/CopyAssetPrjTests/IMPEXPTASK"
+                        "value": ""
                     },
                     "useOnPremisesUrl": {
                         "value": false
