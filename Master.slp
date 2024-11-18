@@ -397,7 +397,7 @@
                 "settings": {
                     "batchSize": {
                         "expression": false,
-                        "value": 4
+                        "value": 5
                     },
                     "execLabel": {
                         "expression": true,
